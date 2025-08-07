@@ -1,5 +1,5 @@
-subject: Skills
-listing-order: 5
+subject: Кратко
+listing-order: 1
 icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: Programming Languages

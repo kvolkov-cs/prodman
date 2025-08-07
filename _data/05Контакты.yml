@@ -1,0 +1,7 @@
+subject: Контакты
+listing-order: 5
+icon: "/assets/img/globe.svg"
+contents:
+  - title: "Телефон:"
+  - title: "Почта:"
+  - title: "Telegram:"

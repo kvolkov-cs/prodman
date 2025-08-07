@@ -27,33 +27,6 @@
     <div class="profile-zone">
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
-        {% if site.phone_number %}
-        <li class="visible-info">
-          <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
-          <div><span>{{ site.phone_number }}</span></div>
-        </li>
-        {% endif %}
-        {% if site.address %}
-        <li class="visible-info">
-          <img src="{{ '/assets/img/location-dot.svg' | prepend: site.baseurl }}" alt="My Address">
-          <div><span>{{ site.address }}</span></div>
-        </li>
-        {% endif %}
-      </ul>
-      <ul class="personal-info right-side">
-        {% if site.email %}
-          <li class="visible-info">
-            <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
-            <div><span>{{ site.email }}</span></div>
-          </li>
-        {% endif %}
-        {% if site.telegram_username %}
-          <li class="visible-info">
-            <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Telegram">
-            <div><span>@{{ site.telegram_username }}</span></div>
-          </li>
-        {% endif %}
-      </ul>
     </div>
     <div class="name-zone">
       <h1>{{ site.name }}</h1>
@@ -106,7 +79,7 @@
   </div>
   <div id="footer">
     <span>
-      Copyright © 2024 | <a href="https://github.com/byanko55">Yankos</a>
+      Copyright © 2025 | Шаблон для GitHub Pages на Jekyll от <a href="https://github.com/byanko55">Yankos</a>
     </span>
   </div>
 </body>
