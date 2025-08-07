@@ -1,12 +1,12 @@
-title: Title of your CV site
+title: KV / визитка
 profile_img: /assets/img/profile.webp
 icon_img: /assets/img/icon.webp
 
-name: "Your Name Here"
-job: "〈Your Job Here〉"
+name: "Кирилл Волков"
+job: "Старший IT-менеджер"
 
-phone_number: 012-345-6789
-address: City, Country
+phone_number: +7 916 817 72 73
+address: Россия, Москва
 email: email@example.com
 linkedin_username: linkedin
 github_username: github
@@ -14,6 +14,7 @@ instagram_username: instagram
 twitter_username: twitter
 facebook_username: facebook
 youtube_username: youtube
+telegram_username: @kvolkov_cs
 blog_url: homepage-url
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
