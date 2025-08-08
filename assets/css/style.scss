@@ -43,7 +43,7 @@ a { text-decoration:none; }
 
 #sidebar{ display: none; }
 
-#about, #contents, #footer { text-align:center; }
+#about, #contents { text-align:center; }
 
 #about{
     width: 100%;
@@ -347,7 +347,7 @@ a { text-decoration:none; }
     }
 }
 
-#footer span { margin-right: 1rem; display: inline-block; }
+#footer span { margin-right: 1rem; display: flow-root; text-align: center;}
 
 @media (min-width:768px) {
     body::before {
