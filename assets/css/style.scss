@@ -6,22 +6,21 @@
   /* --theme1-light: #F6D8CB; */
   --theme1-medium: #93C5FD;
   /* --theme1-dim: #B07D67; */
-  --theme1-dark: #1E3A8A;
+  /* --theme1-dark: #1E3A8A; */
   /* --theme2-light: #B1B1C2; */
   /* --theme2-medium: #8888A4; */
   /* --theme2-dim: #66658C; */
   /* --theme2-dark: #484776; */
   /* --theme3-light: #FFF8E4; */
-  --theme3-medium: #BFDBFE;
-  --theme3-dim: #BFDBFE;
-  --theme3-dark: #4E4B41;
+  --theme3-medium: #7BABDB;
+  --theme3-dim: #A5C7EA;
+  --theme3-dark: #1E3A8A;
   /* --theme4-light: #AABEB6; */
-  --theme4-medium: #BFDBFE;
+  --theme4-medium: #7BABDB;
   /* --theme4-dim: #5C8876; */
-  --theme4-dark: #E5D2C4;
+  --theme4-dark: #4E4B41;
   --font-dark: #202424;
   }
-
 html, body {
     margin:0;
     padding:0;
@@ -171,9 +170,9 @@ a { text-decoration:none; }
     .name-zone h2 { 
         padding-top: 5px;
         color: var(--theme4-dark);
-            text-shadow: 
-                -0.5px -0.5px 0 #202424,
-                 0.5px 0.5px 0 #202424,
+            //text-shadow: 
+            //    -0.5px -0.5px 0 #202424,
+            //     0.5px 0.5px 0 #202424,
                 //-0.5px  -0.5px 0 #202424,
                 // 0.5px  0.5px 0 #202424;
         }
@@ -330,7 +329,7 @@ a { text-decoration:none; }
 
 #footer {
     padding: 1rem;
-    background: var(--theme4-dark);
+    background: var(--theme4-medium);
     font-size: 14px;
     position: fixed; // Фиксированное позиционирование
     bottom: 0;      // Прижимаем к низу
@@ -338,7 +337,12 @@ a { text-decoration:none; }
     width: 100%;    // Ширина 100%
 
     a { 
-        color: var(--font-dark);
+        color: white;
+        text-shadow: 
+            -0.5px -0.5px 0 #202424,
+            0.5px 0.5px 0 #202424,
+            -0.5px  -0.5px 0 #202424,
+            0.5px  0.5px 0 #202424;
         font-weight: 600;
     }
 }
@@ -452,7 +456,7 @@ a { text-decoration:none; }
             margin-right: 0;
             padding: 4px 24px 4px 12px;
             border-radius: 8px 0 0 8px;
-            background: var(--theme3-medium);
+            background: var(--theme3-dim);
             transition: all 0.5s;
             cursor: pointer;
 
