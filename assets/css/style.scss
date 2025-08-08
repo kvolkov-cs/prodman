@@ -325,7 +325,6 @@ a { text-decoration:none; }
     font-size: 14px;
     position: fixed; // Фиксированное позиционирование
     bottom: 0;      // Прижимаем к низу
-    right: 0;
     z-index: 1000;  // Убедитесь, что футер поверх других элементов
     width: 100%;    // Ширина 100%
 
@@ -334,6 +333,8 @@ a { text-decoration:none; }
         font-weight: 600;
     }
 }
+
+#footer span { margin-right: 1rem; display: inline-block; }
 
 @media (min-width:768px) {
     body::before {
