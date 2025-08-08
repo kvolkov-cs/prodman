@@ -1,21 +1,28 @@
-subject: Достижения
+subject: Портфолио
 listing-order: 2
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Решение для календарно-сетевого планирования (топ-5 рынка России) <br> <span class='title-sub'> Роли: product lead (лидер продуктовой команды), визионер, эксперт-консультант"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
+      - "Полнофункциональный российский аналог Microsoft Project и Oracle Primavera Р6"
+      - "Итеративное развитие от MVP-модуля в desktop-based платформе до самодостаточного коробочного решения"
+      - "Обладает сложной бизнес-логикой и API, интегрируется с другими решениями в цельный PMIS"
+    image: "![](https://i.postimg.cc/d1gT4pvB/sch.jpg)"
+  - title: "Комплексные системы управления инвестиционными проектами (ИСУП / КСУП / PMIS) и MES <br> <span class='title-sub'> Роли: IT-лидер (РП модулей), визионер, функциональный / интеграционный архитектор, системный аналитик"
     description: 
-      - Universal Command Line Interface for Amazone Web Services
-      - Developed a scheme to facilitate users’ authentication without having to remember their credentials
-      - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
-  - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
+      - "Единая цифровая платформа для топ-3 нефтегазовой компании России и её подрядчиков"
+      - "Информационая система управления проектами для топ-3 нефтехимической компании России (ИСУП)"
+      - "Централизованная система управления тепличными комплексами в 3 регионах России (MES)"
+    image: "![](https://i.postimg.cc/bvNbJ13Q/syst.jpg)"
+  - title: "Мобильные приложения для оперативного сбора информации с площадок<br> <span class='title-sub'> Роли: визионер, системный аналитик"
     description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+      - "Мобильный обходчик ТОиР в PMIS-системе: задачи, маршруты, чертежи, фотоконтроль"
+      - "Кабинет бригадира-строителя в PMIS-системе: оперативный сбор физобъёмов и фактов"
+      - "Помощник овощевода в MES-системе: маршруты сбора, контроль занятости, интеграция с весами и датчиками"
+    image: "![](https://i.postimg.cc/sXMhPsFx/mob.jpg)"
+  - title: "Аналитические порталы на базе BI-систем с интерактивными моделями на Unity <br> <span class='title-sub'> Роли: визионер, BI-разработчик, системный аналитик"
+    description: 
+      - "Портал для управляющих комитетов в PMIS-системе: дашборды по проектным офисам и локациям + визуализация на 3D-моделях"
+      - "Портал для оперативных штабов в PMIS-системе: план / факт выполнения объёмов на площадках, риски и мероприятия"
+      - "Портал оперативной отчётности MES-системы: план / факт сбора урожая, потребление ресурсов, мобилизация персонала"
+    image: "![](https://i.postimg.cc/5yvQGg2M/bi.jpg)"

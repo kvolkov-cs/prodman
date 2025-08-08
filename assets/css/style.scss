@@ -29,7 +29,7 @@ html, body {
 
 body { 
     margin:0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     background: var(--color-background);
     
     &:before{ display: none; }
@@ -49,7 +49,7 @@ a { text-decoration:none; }
 #about{
     width: 100%;
     z-index: 2;
-
+    padding-bottom: 3px;
     .profile-zone{
         width: 100%;
         position: relative;
@@ -170,6 +170,13 @@ a { text-decoration:none; }
     .name-zone h1 { color: var(--theme3-dark); }
     .name-zone h2 { color: var(--theme4-dark); }
 }
+
+.content-header br + * {
+    display: block;
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 0.3em;
+  }
 
 #contents{
     width: 85%;
@@ -316,6 +323,12 @@ a { text-decoration:none; }
     padding: 1rem;
     background: var(--theme3-medium);
     font-size: 14px;
+    position: fixed; // Фиксированное позиционирование
+    bottom: 0;      // Прижимаем к низу
+    left: 0;        // Растягиваем на всю ширину
+    right: 0;
+    z-index: 1000;  // Убедитесь, что футер поверх других элементов
+    width: 100%;    // Ширина 100%
 
     a { 
         color: var(--theme1-dark);
@@ -336,7 +349,7 @@ a { text-decoration:none; }
     }
 
     #about { 
-        margin-bottom: 6rem; 
+        margin-bottom: 0.5rem; 
 
         .profile-zone { margin:4rem auto; }
 
@@ -408,12 +421,13 @@ a { text-decoration:none; }
         .content-header p,
         .content-date {
             display: table-cell;
+            padding-bottom: 10px;
         }
     }
 }
 
 @media (min-width:1024px) {
-    #about { margin-bottom: 8rem; }
+    #about { margin-bottom: 0.5rem; }
 
     #sidebar { 
         display: block;

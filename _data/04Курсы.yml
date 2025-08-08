@@ -2,12 +2,15 @@ subject: Курсы
 listing-order: 4
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: IEEEE Fellow
-    description: Association for Natural Language Processing
-    date: Feb. 2024
-  - title: Gogle CodeJam
-    description: 3rd place in Gogle CodeJam
-    date: Jul. 2013
-  - title: Millennium Hackaton
-    description: won the best Inspirational Youth Awards
-    date: Oct. 2010
+  - title: OTUS
+    description: Архитектор ПО / есть УПК
+    date: 2024
+  - title: Форсайт.
+    description: Форсайт. Аналитическая платформа / certified BPM
+    date: 2022
+  - title: GeekBrains
+    description: IT для сеньоров и архитекторов ПО
+    date: 2021
+  - title: Product Star
+    description: Как быть продактом
+    date: 2019
