@@ -18,7 +18,7 @@
   /* --theme4-light: #AABEB6; */
   --theme4-medium: #BFDBFE;
   /* --theme4-dim: #5C8876; */
-  --theme4-dark: #B07D67;
+  --theme4-dark: #E5D2C4;
   --font-dark: #202424;
   }
 
@@ -168,7 +168,7 @@ a { text-decoration:none; }
     }
     
     .name-zone h1 { color: var(--theme3-dark); }
-    .name-zone h2 { color: var(--theme4-dark); }
+    .name-zone h2 { color: var(--theme4-dark); text-shadow: 0.5px 0.5px #4E4B41;}
 }
 
 .content-header br + * {
@@ -321,7 +321,7 @@ a { text-decoration:none; }
 
 #footer {
     padding: 1rem;
-    background: var(--theme3-medium);
+    background: var(--theme4-dark);
     font-size: 14px;
     position: fixed; // Фиксированное позиционирование
     bottom: 0;      // Прижимаем к низу
@@ -329,7 +329,7 @@ a { text-decoration:none; }
     width: 100%;    // Ширина 100%
 
     a { 
-        color: var(--theme1-dark);
+        color: var(--font-dark);
         font-weight: 600;
     }
 }
