@@ -334,7 +334,7 @@ a { text-decoration:none; }
     }
 }
 
-#footer span { display: inline-block; }
+#footer span { margin-right: 1rem; display: inline-block; }
 
 @media (min-width:768px) {
     body::before {
