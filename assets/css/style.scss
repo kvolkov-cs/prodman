@@ -228,7 +228,7 @@ a { text-decoration:none; }
 
     .item:nth-child(1) { margin-top: -0.5rem; }
 
-    .content-header + ul { margin-top: -1rem; }
+    .content-header + ul { margin-top: 1rem; }
 
     .subject, .item {
         opacity: 0;
@@ -270,9 +270,9 @@ a { text-decoration:none; }
     }
 
     .content-date {
-        font-size: 14px;
+        font-size: 16px;
         width: 224px;
-        text-align: left; 
+        text-align: left;
     }
 
     .content-date img {
@@ -283,9 +283,10 @@ a { text-decoration:none; }
     }
 
     .subitem {
-        list-style: square;
+        list-style: circle;
         margin-left: 2rem;
         margin-top: 0.5rem;
+        padding-bottom: -10px;
     }
 
     em { padding: 0 4px 0 1px; }
